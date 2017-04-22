@@ -1,36 +1,14 @@
 # httpkit-ssl-issue
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
 ## Usage
 
-FIXME: explanation
+In order to run this example with `lein`, run:
 
-    $ java -jar httpkit-ssl-issue-0.1.0-standalone.jar [args]
+    $ lein run
+    $ lein run https://google.com https://clojure.org
+    
+or using docker
 
-## Options
+    $ docker run olessavluk/httpkit-ssl-issue
+    $ docker run olessavluk/httpkit-ssl-issue https://google.com https://clojure.org
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
